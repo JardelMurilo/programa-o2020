@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!-- Compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+<script
+      src="https://code.jquery.com/jquery-3.4.1.min.js"
+      integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+      crossorigin="anonymous"></script>
+<!-- Compiled and minified JavaScript -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<link rel="stylesheet" href="css/estilo.css">
+  <head>
+    <meta charset="utf-8">
+    <title>Listagem de Veterinários</title>
+  </head>
+  <body>
+    <nav class="">
+      <div class="row pink darken-4">
+        <div class="col s12 l12 m12 ">
+          <ul>
+            <li class="nav"><a href="veterinario.php" class="nav">Veterinário</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="container">
+    <center><h3>Listagem</h3></center>
+    <table>
+      <tr>
+        <thead>
+          <th>ID</th>
+          <th>Nome</th>
+          <th>CRMV</th>
+          <th>Telefone</th>
+          <th>Foto</th>
+          <th>#</th>
+          <th>#</th>
+        </thead>
+        </tr>
+      <tbody>
+        {itens}
+      </tbody>
+    </table>
+  </div>
+  </body>
+</html>
